@@ -7,7 +7,7 @@ OOP project, 1st year, fn: 855271
 - Run main.cpp and type the way to your file
   - Or you can write default way to file directly in main.cpp file:
     ```
-    string way = "/home/dir/dir/dir/fileName";
+    way = "/home/dir/dir/dir/fileName";
     ```  
 
 #### Example of info file:
