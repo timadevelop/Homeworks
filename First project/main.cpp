@@ -9,10 +9,12 @@ int main() {
 
     DialogTree myTree;
 
-    // please, type there full way to your file
-    cout << "Hello, please, type there full way to your file there, or you can write it in main.cpp file as default value of \"way\" variable.\nFor example in linux: /home/vtimofeev/ClionProjects/oopProject/info \n=>";
+    cout << "Hello. Please, type there full way to your file there, or you can write it in main.cpp file
+     as default value of \"way\" variable.\n
+     For example in linux: /home/vtimofeev/ClionProjects/oopProject/info \n=> ";
 
-    string way = "/home/vtimofeev/ClionProjects/oopProject/info.txt"; // Default way.
+    // default way
+    //string way = "/home/vtimofeev/ClionProjects/oopProject/info.txt";
 
     if(way.length() < 2)
         cin >> way;

@@ -84,7 +84,7 @@ int getCommand()
 
 
 void DialogTree::perfrormDialog() {
-    std::cout << "\[Dialog srarted]\n\n";
+    std::cout << "\n[Dialog srarted]\n\n";
     int currentIndex = 0;
     do {
         std::cout << nodes[currentIndex] << std::endl;
