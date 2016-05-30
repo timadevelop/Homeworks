@@ -6,12 +6,10 @@ using namespace std;
 #include "DialogTree.h"
 
 int main() {
+	DialogTree myTree;
 
-    DialogTree myTree;
+    cout << "Hello. Please, type there full way to your file there, or you can write it in main.cpp file as default value of \"way\" variable.\nFor example in linux: /home/vtimofeev/ClionProjects/oopProject/info.txt \nOr in windows with VS compiler you can use: info.txt \n=> ";
 
-    cout << "Hello. Please, type there full way to your file there, or you can write it in main.cpp file as default value of \"way\" variable.\nFor example in linux: /home/vtimofeev/ClionProjects/oopProject/info \n=> ";
-
-    // default way
     string way;
     //way = "/home/vtimofeev/ClionProjects/oopProject/info.txt";
 
