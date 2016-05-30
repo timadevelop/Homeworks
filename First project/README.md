@@ -34,5 +34,4 @@ Let’s do it! => -1
 No way. => -1
 ```
 
-
-###### Write a documentation for it...
+##### See documentation in OOP_Project_Documentation file

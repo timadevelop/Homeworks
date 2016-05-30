@@ -10,7 +10,7 @@ using namespace std;
 DialogNode::DialogNode() : id(0), text("")
 {};
 
-DialogNode::DialogNode(unsigned newId, std::string txt, std::vector<DialogOption> opts )
+DialogNode::DialogNode(unsigned newId, string txt, vector<DialogOption> opts )
 {
     id = newId;
     text = txt;
@@ -18,7 +18,7 @@ DialogNode::DialogNode(unsigned newId, std::string txt, std::vector<DialogOption
 }
 
 
-std::ostream& operator<<(std::ostream& os, const DialogNode& node)
+ostream& operator<<(ostream& os, const DialogNode& node)
 {
     os << node.getText() << endl;
 
